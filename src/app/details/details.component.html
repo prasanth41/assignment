@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row justify-content-center mt-5">
+    <div class="col-6">
+      <div class="card">
+        <div class="card-header">
+          <p>
+           ( {{questionsData?.id}} )
+            <b>Question :</b>{{questionsData?.questionText}}</p>
+        </div>
+        <div class="card-body">
+          <div *ngIf="questionsData?.answerOptions"><b>Question options:</b>
+          <p *ngFor="let item of questionsData?.answerOptions">{{item}}</p>
+          </div>
+          <p><b>Author:</b> {{questionsData?.Author}}</p>
+          <p><b>Answer:</b> {{questionsData?.correctAnswer}}</p>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</div>

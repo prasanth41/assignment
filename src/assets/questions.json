@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "questionText": "How old are you",
+        "answerOptions": ["18", "25", "45"],
+        "correctAnswer": "25",
+        "Author": "john",
+        "status": {
+            "lastDate": "28-10-2020",
+            "count": 10,
+            "correctPercentage": 40
+        }
+    },
+    {
+        "id": 1,
+        "questionText": "Where is you location",
+        "answerOptions": ["hyderabad", "mumbai", "delhi"],
+        "correctAnswer": "hyderabad",
+        "Author": "smith",
+        "status": {
+            "lastDate": "18-6-2019",
+            "count": 14,
+            "correctPercentage": 60
+        }
+    },  
+    {
+        "id": 1,
+        "questionText": "What is you Job category",
+        "answerOptions": ["Software", "construction", "mechanical"],
+        "correctAnswer": "software",
+        "Author": "steve",
+        "status": {
+            "lastDate": "21-4-2021",
+            "count": 23,
+            "correctPercentage": 84
+        }
+    }
+]
